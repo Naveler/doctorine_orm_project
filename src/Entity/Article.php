@@ -77,11 +77,11 @@ class Article {
 		$this->body = $value;
 	}
 
-	public function getPublished() {
-		return $this->published;
+	public function getPubliched() {
+		return $this->publiched;
 	}
 
-	public function setPublished(DateTime $value = null) {
+	public function setPublish(DateTime $value = null) {
 		$this->slug = $value;
 	}
 }
