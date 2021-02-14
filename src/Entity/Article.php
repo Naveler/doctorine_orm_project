@@ -4,7 +4,6 @@ namespace App\Entity;
 
 use DateTime;
 
-
 /**
 * @Entity
 */
@@ -82,6 +81,6 @@ class Article {
 	}
 
 	public function setPublish(DateTime $value = null) {
-		$this->slug = $value;
+		$this->publiched = $value;
 	}
 }
